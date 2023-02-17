@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: black;
+}
+
+#container {
+  width: 600px;
+  height: 570px;
+  margin: 20px auto;
+  background-color: aliceblue;
+  background-image: linear-gradient(rgb(0 255 20 / 49%), rgb(39 0 255 / 77%));
+}
+
+h3 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#calculator {
+  height: 497px;
+  width: 320px;
+  background-color: transparent;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: relative;
+  top: 13px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+#result {
+  height: 120px;
+}
+
+#keyboard {
+  height: 400px;
+}
+
+#history {
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #919191;
+}
+
+#output {
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+
+.operator,
+.number,
+.empty {
+  width: 46px;
+  height: 46px;
+  margin: 15px;
+  margin-left: 19px;
+  float: left;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.operator:hover,
+.number:hover {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.993),
+    rgba(0, 0, 0, 0.616)
+  );
+}
+
+.operator:active,
+.number:active {
+  font-size: 13px;
+}
+
+button:nth-child(4) {
+  font-size: 20px;
+  background-color: #20b2aa;
+}
+button:nth-child(8) {
+  font-size: 20px;
+  background-color: #dda132;
+}
+button:nth-child(12) {
+  font-size: 20px;
+  background-color: #f08080;
+}
+button:nth-child(16) {
+  font-size: 20px;
+  background-color: #7d93e0;
+}
+button:nth-child(20) {
+  font-size: 20px;
+  background-color: #9b71c2;
+}
